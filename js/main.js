@@ -149,7 +149,13 @@ define([
           this._mapLegend.startup();
         }
       },
+
+
+
       _initTOC: function () {
+
+      /*  Disabling Table of contents
+      
         // layers
         var tocNode = dom.byId('TableOfContents'),
           socialTocNode, tocLayers, socialTocLayers, toc, socialToc;
@@ -161,6 +167,9 @@ define([
           }, tocNode);
           toc.startup();
         }
+
+      */
+
         // if we have social layers
         if (this.socialLayers && this.socialLayers.length) {
           // add social specific html
