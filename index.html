@@ -14,13 +14,15 @@
     <!-- Mobile -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
     <!-- SEO -->
-    <meta name="Keywords" content="Public Information Map, Map, Esri" />
-    <meta name="Description" content="A fully configurable and responsive web mapping application that highlights areas of interest through data, map notes, and/or social content to a wide audience." />
+    <meta name="Keywords" content="Discover the Columbia River Gorge, Columbia River Gorge, Recreation" />
+    <meta name="Description" content="An interactive map that lets you explore recreation sites and trails in the awe inspiring Columbia River Gorge National Scenic Area." />
     <!-- End SEO -->
     <!-- Facebook -->
+    <!--    
     <meta property="og:title" content="Public Information Map" />
     <meta property="og:image" content="images/item.png" />
     <meta property="og:site_name" content="esri" />
+     -->
     <!-- End Facebook -->
     <!--Use protocol relative urls that way if the browser is viewing the page via HTTPS the js/css file will be requested using the HTTPS protocol-->
     <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.13/esri/css/esri.css" />
@@ -64,6 +66,9 @@
                 </div>
                 <div id="title" class="app-title"></div>
                 <div class="top-menu-right">
+                    <!--Google Translate Div-->
+                    <div id="google_translate_element"></div> 
+                    <!--End of Google Translate Div-->
                     <div id="ShareDialog"></div>
                     <div class="locate-box">
                         <div id="geocoderSearch"></div>
@@ -138,6 +143,30 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-215788-4']);
+         //_gaq.push(['_setDomainName', 'esri.com']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!--Google Translate Widget-->
+    <div id="google_translate_element"></div><script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-215788-4'}, 'google_translate_element');
+    }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <!--Google Analytics-->
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-215788-4']);
