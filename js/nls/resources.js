@@ -18,7 +18,7 @@ define({
         },
         social: {
             flickr: "Flickr",
-            mediaLayers: "Media Layers",
+            mediaLayers: "", // Default is: Media Layers
             mediaLayersDescription: "Show contributions from the public on the map.",
             flickrSettings: "Flickr Settings",
             twitter: "Twitter",
@@ -54,7 +54,7 @@ define({
             mapInfo: "Map Information",
             legend: "Legend",
             featured: "Featured Locations",
-            layers: "Layers",
+            layers: "Social Media", // Default is: Layers
             share: "Share",
             about: "About",
             find: "Zip Code, city, etc.",
