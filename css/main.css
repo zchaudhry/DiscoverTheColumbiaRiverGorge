@@ -790,6 +790,22 @@ input[type=text]::-ms-clear {
 
 /* max width */
 
+
+@media screen and (max-width: 1100px) { /* Hiding Locate box to fit Google Translate Widget */
+  .mobile-locate-box-hidden {
+    display: none;
+  }
+  .locate-box {
+    display: none!important;
+  }
+  .mobile-geocoder-icon,
+  .geocoder-mobile {
+    display: block!important;
+  }
+  .mobile-locate-box-display {
+    display: block!important;
+  }
+}
 @media screen and (max-width: 850px) {
   .mobile-locate-box-display {
     display: none;
