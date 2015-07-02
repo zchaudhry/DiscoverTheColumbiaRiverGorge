@@ -243,7 +243,7 @@ define([
                     flContent += '<div class="' + this.socialCSS.dialogContent + '">';
                     flContent += '<div class="' + this.socialCSS.layerSettingsDescription + '">' + this.config.i18n.social.flSettingsInfo + '</div>';
                     flContent += '<div class="' + this.socialCSS.layerSettingsHeader + '">' + this.config.i18n.social.searchTerms + '</div>';
-                    flContent += '<input id="flickr_search_input" class="' + this.socialCSS.layerSettingsInput + '" type="text" value="' + this.config.flickrSearch + '">';
+                    flContent += '<input id="flickr_search_input" class="' + this.socialCSS.layerSettingsInput + '" type="text" value="Multnomah Falls"' + this.config.flickrSearch + '">';
                     flContent += '<div class="' + this.socialCSS.layerSettingsHeader + '">' + this.config.i18n.social.ytTime + '</div>';
                     flContent += '<div class="' + this.socialCSS.layerSettingsSelect + '"><select id="flickr_search_time">';
                     flContent += this._createFlickrOption('all_time', this.config.i18n.social.all_time);
@@ -409,7 +409,7 @@ define([
                     ytContent += '<div class="' + this.socialCSS.dialogContent + '">';
                     ytContent += '<div class="' + this.socialCSS.layerSettingsDescription + '">' + this.config.i18n.social.ytSettingsInfo + '</div>';
                     ytContent += '<div class="' + this.socialCSS.layerSettingsHeader + '">' + this.config.i18n.social.searchTerms + '</div>';
-                    ytContent += '<input id="youtube_search_input" class="' + this.socialCSS.layerSettingsInput + '" type="text" value="' + this.config.youtubeSearch + '">';
+                    ytContent += '<input id="youtube_search_input" class="' + this.socialCSS.layerSettingsInput + '" type="text" value="Multnomah Falls"' + this.config.youtubeSearch + '">';
                     ytContent += '<div class="' + this.socialCSS.layerSettingsHeader + '">' + this.config.i18n.social.ytTime + '</div>';
                     ytContent += '<div class="' + this.socialCSS.layerSettingsSelect + '"><select id="youtube_search_time">';
                     ytContent += this._createYouTubeOption('all_time', this.config.i18n.social.all_time);
