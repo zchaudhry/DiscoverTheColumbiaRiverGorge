@@ -44,6 +44,7 @@
 	<link rel="stylesheet" type="text/css" href="css/InstagramLayer.css" />
     <link rel="stylesheet" type="text/css" href="css/YoutubeLayer.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/GoogleTranslate.css" />
     <!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/fontello-ie7.css" /><![endif]-->
 </head>
 <body class="calcite app-loading">
@@ -101,24 +102,6 @@
 
     <style>
     /* CUSTOM CSS RULES */
-        .goog-te-banner-frame.skiptranslate {
-            display: none !important;} 
-
-        body {
-            top: 0px !important;}
-
-        .goog-te-gadget-simple {
-            background-color:#fff;
-            border: 3px solid #007ac2 !important;
-            font-size:12pt !important;
-            font-style: italic;
-            margin-top: 8px;
-            margin-left: 14px;
-            float: left;}
-        .goog-te-gadget-simple .goog-te-menu-value {
-            color: #007ac2;}
-        .goog-te-gadget-simple .goog-te-menu-value span {
-            color: #007ac2;}
     </style>
     <script type="text/javascript">
         var package_path = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
@@ -181,11 +164,17 @@
         })();
     </script>
     <!--Google Translate Widget-->
-    <div id="google_translate_element"></div><script type="text/javascript">
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false, gaTrack: true, gaId: 'UA-215788-4'}, 'google_translate_element');
+    }
+    </script>
+    <!--    Dropdown version
+    <script type="text/javascript">
     function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-215788-4'}, 'google_translate_element');
     }
-    </script>
+    </script>   -->
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script>
     <!--Google Analytics-->
