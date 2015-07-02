@@ -1,0 +1,48 @@
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+} 
+
+body {
+    top: 0px !important;
+}
+
+.goog-logo-link {
+    display: none;
+}
+
+.goog-te-gadget {
+
+    font-size: 0!important;
+    float: left;
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 14px!important;
+}
+
+.goog-te-combo {
+    border: 2px solid #007ac2 !important;
+    font-size:10pt !important;
+    font-style: italic;
+}
+
+/* -- [Used for Dropdown Version]
+    .goog-te-banner-frame.skiptranslate {
+        display: none !important;} 
+
+    body {
+        top: 0px !important;}
+
+    .goog-te-gadget-simple {
+        background-color:#fff;
+        border: 3px solid #007ac2 !important;
+        font-size:12pt !important;
+        font-style: italic;
+        margin-top: 8px;
+        margin-left: 14px;
+        float: left;}
+    .goog-te-gadget-simple .goog-te-menu-value {
+        color: #007ac2;}
+    .goog-te-gadget-simple .goog-te-menu-value span {
+        color: #007ac2;}    
+*/
